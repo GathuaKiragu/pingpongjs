@@ -1,47 +1,15 @@
-.Section 1{
-	font-style: Bold;
-	background-color: linen;
-
-}
-.buttons{
-	border: none;
-    color: white;
-    padding: 15px 32px;
+.About{
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+    list-style: none;
+}
+ul{
+    list-style: none;
 }
 
-.Section2{
-	font-family: Times;
-	font-style: Bold;
-	background-color: linen
-
+.area{
+    text-align: center;
 }
 
-.AboutMe{
-     border-style: groove;
-     background-color:green;
-     font-family: "Times New Roman", Times, serif;
-     font-style: oblique;
+ol{
+    text-align: center;
 }
-
-.button1{
-	background-color: #008CBA;
-} 
-
-.button2{
-	background-color: ##555555;
-
-}
-
-.lightbg {
-background-color: lightblue;
-}
-
-.darkbg {
-background-color: #555555;
-}
-
-#
