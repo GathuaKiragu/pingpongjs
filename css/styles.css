@@ -1,15 +1,49 @@
-.About{
+.header{
+    font-size: 40px;
     text-align: center;
-    list-style: none;
+    font-family: 'Rancho', cursive;
+    background-color: #E2EA2A;
+    height: 200px;
+    width: 100%;
 }
-ul{
-    list-style: none;
+h1{
+    font-family: 'Rancho', cursive;
+
+}
+h2{
+    font-family: 'Rancho', cursive;
+    color: white;
+
 }
 
-.area{
-    text-align: center;
+.row{
+    padding: 40px;
+    width: auto;
+}
+.col-md-4{
+    background-color: #767849;
+    height: 400px;
+    width: auto;
 }
 
-ol{
-    text-align: center;
+.col-md-4{
+
+    height: 400px;
+    width: auto;
+}
+
+.head{
+    -webkit-animation-duration:2s;
+    -webkit-animation-iteration-count: 1; 
+}
+.btn{
+    background-color: #E2EA2A;
+
+    -webkit-animation-delay: 2s;
+    -webkit-animation-duration:2s;
+    -webkit-animation-iteration-count: 4; 
+}
+.list-unstyled{
+    font-size: 24px;
+    font-family: 'Pangolin', cursive; 
 }

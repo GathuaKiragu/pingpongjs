@@ -3,24 +3,28 @@
 	<head>
 		
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+		<link rel="stylesheet" href="css/bootstrap.css" type="text/css">
 		<link rel="stylesheet" href="css/styles.css" type="text/css">
+		<link rel="stylesheet" href="css/animate.css" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Rancho" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Pangolin" rel="stylesheet">
 		<script src="js/jquery-3.1.1.js"></script>
 		<script src="js/scripts.js"></script>
 		<title>PingPong</title>
 	</head>
-	<body background="images/bg.jpg">
+	<body>
 		<div class="container">
-			<marque><div class="header">Ping Pong!</div></marque>
-				<div class="About">
-					<ul>
-						<li><h2>About PingPong</h2></li>
+			<div class="header"><div class="head animated flip">Ping Pong!</div></div>
+			<div class="row">
+				<div class="col-md-4">
+					<ul class="list-unstyled">
+						<li><h2><u>About PingPong</u></h2></li>
 						<li>Created By : Brian Gathua</li>
-						<li>>Github UserName: GathuaKiragu</li>
+						<li>Github UserName: GathuaKiragu</li>
 						<li><a href="">Github Url</a></li>
 					</ul>
 				</div>
-				<div class="area">
+				<div class="col-md-8">
 					<form id="pingPongForm">
 						<h1>Let's play!</h1>
 						<h2>Rules!</h2>
@@ -33,7 +37,7 @@
 						<div class="form-group">
 							<label for="number">Enter your number:</label>
 							<input id="number" class="formcontrol " required=" " type="text "></input>
-							<button class="btn">Ping :)</button>
+							<button class="btn animated shake" onclick="myFunction()">Ping :)</button>
 						</div>
 						<div id="userOutput"></div>
 					</form>
