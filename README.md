@@ -1,16 +1,16 @@
-#PROJECT TITLE: PINPONG Javascript
+# PROJECT TITLE: PINPONG Javascript
 
 
-##DESCRIPTION
+## DESCRIPTION
 
 This is a simple js website that takes a number from a user and returns a range of numbers from 1 to the chosen number with the following exceptions:
 
-..Numbers divisible by 3 are replaced with "ping"
-..Numbers divisible by 5 are replaced with "pong"
-..Numbers divisible by 15 are replaced with "pingpong"
-..A user should be able to enter a new number and see new results over and over again.
+ 1. Numbers divisible by 3 are replaced with "ping"
+ 2. Numbers divisible by 5 are replaced with "pong"
+ 3. Numbers divisible by 15 are replaced with "pingpong"
+ 4. A user should be able to enter a new number and see new results over and over again.
 
-##PROJECT SETUP
+## PROJECT SETUP
 
 1.First Youll need a text editor
 2.Bootstrap framework to facilitate the better format of the website;
@@ -18,14 +18,14 @@ This is a simple js website that takes a number from a user and returns a range 
 
 
 
-##LINK TO SITE
+## LINK TO SITE
 [Heres The Link To My Site](https://gathuakiragu.github.io/pingpongjs)
 
 
 
 
-##AUTHOR: 
+## AUTHOR: 
 **Brian Gathua**
-###Email: 
+### Email: 
 **gathuakiragu@gmail.com**
 
